@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+
+# AI models
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.gguf
+
+# HuggingFace Trainer
+checkpoint-*/
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# Data
+datasets/
+data/
+
+# Logs
+*.log
+
+# Cache
+.cache/
